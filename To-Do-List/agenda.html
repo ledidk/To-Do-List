@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="Shanya Malik">
+      <meta name="email" content="mali0122@algonquinlive.com">    
+      <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Domine:wght@600&family=Gluten:wght@700&family=Grape+Nuts&family=Luckiest+Guy&family=Trade+Winds&display=swap" rel="stylesheet">
+      <title>Agenda Template</title>
+      <link rel="stylesheet" type="text/css" href="main.css">
+      <link rel="stylesheet" type="text/css" href="todolist.css">
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+          <div class=" logo">
+              <img width="160px" lenght="160px" src="images/list-check-solid.svg">
+          </div>
+          <ul class = "nav-area">
+              <li><a href="home.html">Home</a></li>
+          </ul>
+
+
+    <center>
+      <h2 Agenda style="top:70px";>Agenda</h2>
+      <table border="2" id="table1">
+        <thead>
+          <tr>
+            <th class="rightCell">Topic</th>
+            <td><input type="text" name="fname" id="fname"></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="rightCell">Note</th>
+            <td><input type="text" name="lname" id="lname"></td>
+          </tr>
+          <tr>
+            <th class="rightCell">Date</th>
+            <td><input type="text" name="email" id="email"></td>
+          </tr>
+          <tr>
+            <th class="rightCell">remarks</th>
+            <td><input type="text" name="age" id="age"></td>
+          </tr>
+          <tr id="btna">
+            <td colspan="2"><input type="button" name="button" id="btn" value="Add" onclick="AddRow()"></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table border="2" id="show">
+        <thead>
+          <tr>
+            <th class="rightCell">Topic</th>
+            <th class="rightCell" > Note</th>
+            <th class="rightCell">Date</th>
+            <th class="rightCell">remarks</th>
+          </tr>
+        </thead>
+      </table>
+    </center>
+
+    
+    <script src="scripts/agenda.js"></script>
+  </header>
+  <footer class="footer">
+      <a href="https://www.flaticon.com/search?word=facebook&type=icon">
+          <img src="images/facebook_50.png"  alt="facebooklogo">
+      </a>
+      
+      <a href="https://www.flaticon.com/search?word=snapchat%20icon&order_by=4&type=icon">
+          <img src="images/snapchat_50.png" alt="snapchats">
+      </a>
+      <a href="https://www.flaticon.com/search?word=instagram&order_by=4&type=icon">
+          <img src="images/instagram_50.png" alt="instagram">  
+      </a>
+      <a href="https://www.flaticon.com/search?word=twitter&order_by=4&type=icon">
+          <img src="images/twitter_50.png" alt="twitter">
+      </a>
+     
+  </footer>
+
+  </body>
+  
+</html>
